@@ -100,8 +100,9 @@
 }
 .fh5co-section-heading {
   margin-bottom: 4em;
-  margin-left: 10%;
+  margin-left: 16%;
 }
+
 .text-center {
   text-align: center;
 }
@@ -332,6 +333,11 @@ h2 {
 
 /*End Efects Cards*/
 
+#titleblog{
+  margin-bottom: 4em;
+  margin-left: 28%;
+}
+
 #contentbutton{
   margin-left: 33%;
   
@@ -366,6 +372,13 @@ h2 {
   
 
 /*EndBox*/
+
+.card{
+  margin-left: 6%;
+  margin-right: .1%;
+  margin-bottom: 5%;
+}
+
 
 .icons{
   margin-top: 1em;

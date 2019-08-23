@@ -16,7 +16,7 @@ function App() {
         <header className="App-main">
         <Bodymain />
          <div id="bar-div" className="animated">
-					<div class="container">
+					<div className="container">
 					 <div className="row text-center">
 				   </div>
 					</div>
