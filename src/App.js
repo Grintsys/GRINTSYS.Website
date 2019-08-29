@@ -7,12 +7,13 @@ import Sidebar from './components/Sidebar';
 import Bodymain from './components/Bodymain';
 import Content from './components/Content';
 import Datablog from './components/Datablog';
+import OursTools from './components/OursTools';
 
 function App() {
   return (
     <div className="App">
         < Navbar className="App-nav"/>
-        <Sidebar />
+        {/* <Sidebar /> */}
         <header className="App-main">
         <Bodymain />
          <div id="bar-div" className="animated">
@@ -21,9 +22,10 @@ function App() {
 				   </div>
 					</div>
 				</div>
-        <Content />
+        <Content /> 
+        <OursTools />
         <Datablog />
-             
+                            
       </header>
       
       

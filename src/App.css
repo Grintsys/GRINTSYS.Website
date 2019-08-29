@@ -2,11 +2,21 @@
   font-family: sans-serif;
 }
 
+
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 } */
+p{
+  margin-bottom: 1.5em;
+  margin: 0 0 10px;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 
 .App-main {
   background-color: #5B696F;
@@ -22,6 +32,7 @@
   color: white; */
 }
 .navbar{
+
   
   
   
@@ -29,6 +40,8 @@
 #App-nav{
   justify-content: space-between;
   margin-top: 1.3em;
+  position: fixed; 
+  
   
 
 }
@@ -62,7 +75,7 @@
   height: 60px;
 }
 
-#fh5co-features {
+#fh5co-features, #services {
   background: #fafafa;
   position: relative;
   padding: 7em 0;
@@ -71,6 +84,11 @@
 .fh5co-section-heading .fh5co-lead {
   font-size: 45px;
   line-height: 60px;
+}
+.fh5co-sub {
+  width: 746.662px;
+  font-size: 18px;
+  line-height: 30px;
 }
 .container {
   margin-right: auto;
@@ -101,6 +119,13 @@
 .fh5co-section-heading {
   margin-bottom: 4em;
   margin-left: 16%;
+}
+.fh5co-uppercase-sm {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .text-center {
@@ -336,6 +361,7 @@ h2 {
 #titleblog{
   margin-bottom: 4em;
   margin-left: 28%;
+
 }
 
 #contentbutton{
@@ -382,8 +408,9 @@ h2 {
 
 .icons{
   margin-top: 1em;
-  width: 32.42px;
+  width: 35.42px;
   height: 40px;
+  margin-bottom:1.5em;
 }
 
 
@@ -391,6 +418,33 @@ h2 {
   border-radius: 100px;
   padding: 20px 30px 20px 30px;
 }
+
+/*css Tools */
+.owl-item cloned{
+  width: 354px; 
+  margin-right: 10px;
+}
+.owl-item {
+  width: 354px; 
+  margin-right: 10px;
+}
+.owl-stage{
+  transform: translate3d(-2912px, 0px, 0px); 
+  transition: all 0.5s ease 0s; width: 4368px;
+  
+}
+#titleblog {margin-bottom: 4em;
+margin-left: 28%;
+}
+
+/*css Carousellimages */
+ .carousel .slide{
+  background: none!important;
+}
+
+
+  
+
 
 
 /* .App-link {
@@ -428,7 +482,7 @@ h2 {
   width: 36px;
   height: 28px;
   /* left: 36px; */
-  right: 160px;
+  right: 13%;
   top: 36px;
 }
 
