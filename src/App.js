@@ -8,6 +8,7 @@ import Bodymain from './components/Bodymain';
 import Content from './components/Content';
 import Datablog from './components/Datablog';
 import OursTools from './components/OursTools';
+import Features from './components/Features';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 				</div>
         <Content /> 
         <OursTools />
+        <Features/>
         <Datablog />
                             
       </header>

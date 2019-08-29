@@ -76,10 +76,13 @@ p{
 }
 
 #fh5co-features, #services {
-  background: #fafafa;
+  background: #FFFFFF;
   position: relative;
   padding: 7em 0;
   border-bottom: 1px solid #f2f2f2;
+}
+#fh5co-features-3{
+  background: #FAFAFA;
 }
 .fh5co-section-heading .fh5co-lead {
   font-size: 45px;
@@ -440,6 +443,12 @@ margin-left: 28%;
 /*css Carousellimages */
  .carousel .slide{
   background: none!important;
+}
+
+/*css Features */
+
+.fh5co-sub {
+  margin-top: 4em;
 }
 
 
