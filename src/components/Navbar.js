@@ -1,6 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar'
-
+import Nav from './Nav'
 
 
 
@@ -8,16 +8,18 @@ import Sidebar from './Sidebar'
 class Navbar extends React.Component{
     render(){
         return(
-             <div className="container">
-                 <nav id="App-nav" className="navbar navbar-expand-lg">
-                        <a className="navbar-brand" href="#"><h2>GRINTSYS</h2><Sidebar/></a>
-                 </nav>
+            <div className="container">
+            <Sidebar/>
+            <div className="navigation-bar">
+            <a className="navbar-brand" href="#"><h2>GRINTSYS</h2></a>
+            </div>
+            </div>
+             
                  
-                <Sidebar/> 
-                 
-             </div>
         )
     }
 }
 
 export default Navbar;
+
+ 

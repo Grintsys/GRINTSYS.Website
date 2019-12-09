@@ -1,5 +1,6 @@
 .App {
   font-family: sans-serif;
+  background:#5B696F;
 }
 
 
@@ -31,34 +32,49 @@ p{
   font-size: calc(10px + 2vmin);
   color: white; */
 }
-.navbar{
 
-  
-  
-  
-}
+
+
+
 #App-nav{
-  justify-content: space-between;
-  margin-top: 1.3em;
-  position: fixed; 
-  
-  
+  position: fixed;
 
-}
-.App-main{
+  
   
 }
+
 #Bodymain{
-  display: inline-flex;
+  margin-top: 7%;
+  display: flex;
+  background: #5B696F;
 
 }
 #Textbodymain{
-  margin-left: 10%;
+  margin-right: 10%;
   height: 387.41px;
-  top: 240px;
-
+  top: 7.5em;
 
 }
+
+#Textbodymain h2{
+  display: block;
+  color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+#Textbodymain p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: .05em;
+}
+#bodyimg{
+  margin-left: 10%;
+  width: 90%;
+  height: 100%;
+}
+
 #bar-div{
     padding: 2em 0;
     background: #4fd2c2;
@@ -76,13 +92,15 @@ p{
 }
 
 #fh5co-features, #services {
-  background: #FFFFFF;
+  
+  background: #FAFAFA;
   position: relative;
   padding: 7em 0;
   border-bottom: 1px solid #f2f2f2;
 }
 #fh5co-features-3{
   background: #FAFAFA;
+  padding-bottom: 5%;
 }
 .fh5co-section-heading .fh5co-lead {
   font-size: 45px;
@@ -98,7 +116,9 @@ p{
   margin-left: auto;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
+
 .container:before, .container:after {
   content: " ";
   display: table;
@@ -170,6 +190,15 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+ul{
+  padding: 0;
+}
+li {
+  list-style: none;
+  
+}
+
+
 .fh5co-spacer-sm {
   height: 50px;
   width: 100%;
@@ -190,6 +219,32 @@ h2 {
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
+}
+#fh5co-subscribe {
+  padding: 4em 0 3em 0;
+  position: relative;
+  background: #4fd2c2;
+  width: -webkit-fill-available;
+}
+
+#fh5co-offcanvass {
+  position: fixed;
+  z-index: 90;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateX(290px);
+  -moz-transform: translateX(290px);
+  -ms-transform: translateX(290px);
+  -o-transform: translateX(290px);
+  transform: translateX(290px);
+  bottom: 0;
+  width: 290px;
+  padding: 40px 30px;
+  background: #fff;
+  color: #878c93;
 }
 
 
@@ -402,6 +457,10 @@ h2 {
 
 /*EndBox*/
 
+.btn-lg{
+  margin-left: 25%;
+}
+
 .card{
   margin-left: 6%;
   margin-right: .1%;
@@ -419,8 +478,37 @@ h2 {
 
 .btn-primary{
   border-radius: 100px;
-  padding: 20px 30px 20px 30px;
+  padding: 1px 70px 20px 30px;
+  background: #30beac;
+  border-color:none!important;
+  font-family: "Montserrat", arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    transition: 0.5s;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 400;
 }
+.form-control{
+  background: #4FD2C2;
+  border: 1.5px solid #ffffff;
+  background: transparent;
+    font-family: "Montserrat", arial, sans-serif;
+  display: block;
+    width: 100%;
+    height: 50px;
+    padding: 14px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+
 
 /*css Tools */
 .owl-item cloned{
@@ -445,12 +533,165 @@ margin-left: 28%;
   background: none!important;
 }
 
+/*css QuestionAcordion */
+.accordion-list {
+  display: contents;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color:none;
+  max-width: 30rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 0 0.8rem 0.1rem rgba(15, 72, 179, 0.06), 0 20px 30px -10px rgba(15, 72, 179, 0.2);
+}
+.accordion-list__item + .accordion-list__item {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item--opened .accordion-item__icon {
+  transform: rotate(180deg);
+}
+.accordion-item--opened .accordion-item__inner {
+  max-height: 100rem;
+  transition-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  transition-duration: 0.5s;
+  transition-property: max-height;
+}
+.accordion-item--opened .accordion-item__content {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+  transition-property: opacity, transform;
+}
+.accordion-item__line {
+  display: block;
+  padding: 0.8rem 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:none;
+  z-index: 2;
+  position: relative;
+}
+.accordion-item__title {
+  font-size: 26px;
+  margin: 0;
+  font-weight: 400;
+  color: #4FD2C2;
+  line-height: 1.5;
+}
+.accordion-item__icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  transition: transform 0.3s ease-in-out;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAQAAABIkb+zAAABGklEQVR4Ae3RAcZCQRiF4buDfwshBGi+2UQgcIGAVtpSIuS/KyilG+UTcbk6zIH3GQBm3mM6AAAAAAAAAACA+eqf/yZBXcV/2XeCVPYx1FXj/FjGUMd45AQp/1HHGGLZNL+e61jHnKDmv8652YT1IvPfE2LX/Sh27/ycsF60yT/lk58JYn6eU4MJccjnlAmZ/33i0OAH4jg9Qcw/5g9YJpS+m6n0xvzpCfVe+nn59S7kGyYo+YYJWz3fO+E2PaFs9XzPhMy/6fmWCXq+YUJs9HzrhLh+JsQmrnq+bYKeb52g53snXPR88wQ93z9Bz/dP0PP9E/R89wQ93zpBz7dO0POtE/R86wQ93zpBzzdP+MoHAAAAAAAAAADAExTnTW20AtjhAAAAAElFTkSuQmCC); */
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjQwLjgxMSAyNDAuODExIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAyNDAuODExIDI0MC44MTE7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgY2xhc3M9IiI+PGc+PGc+Cgk8cGF0aCBpZD0iRXhwYW5kX01vcmUiIGQ9Ik0yMjAuMDg4LDU3LjY2N2wtOTkuNjcxLDk5LjY5NUwyMC43NDYsNTcuNjU1Yy00Ljc1Mi00Ljc1Mi0xMi40MzktNC43NTItMTcuMTkxLDAgICBjLTQuNzQsNC43NTItNC43NCwxMi40NTEsMCwxNy4yMDNsMTA4LjI2MSwxMDguMjk3bDAsMGwwLDBjNC43NCw0Ljc1MiwxMi40MzksNC43NTIsMTcuMTc5LDBMMjM3LjI1Niw3NC44NTkgICBjNC43NC00Ljc1Miw0Ljc0LTEyLjQ2MywwLTE3LjIxNUMyMzIuNTI4LDUyLjkxNSwyMjQuODI4LDUyLjkxNSwyMjAuMDg4LDU3LjY2N3oiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIGNsYXNzPSJhY3RpdmUtcGF0aCIgc3R5bGU9ImZpbGw6IzRGRDJDMiIgZGF0YS1vbGRfY29sb3I9IiMwMDAwMDAiPjwvcGF0aD4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KCTxnPgoJPC9nPgoJPGc+Cgk8L2c+Cgk8Zz4KCTwvZz4KPC9nPjwvZz4gPC9zdmc+);
+  opacity: 0.6;
+}
+.accordion-item__inner {
+  max-height: 0;
+  overflow: hidden;
+  text-transform: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+  transition-duration: 0.5s;
+  transition-property: max-height;
+  z-index: 1;
+  position: relative;
+}
+.accordion-item__content {
+  opacity: 0;
+  transform: translateY(-1rem);
+  transition-timing-function: linear, ease;
+  transition-duration: 0.1s;
+  transition-property: opacity, transform;
+  transition-delay: 0.5s;
+  padding: 0 1.2rem 1.2rem;
+}
+.accordion-item__paragraph {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+
 /*css Features */
 
 .fh5co-sub {
   margin-top: 4em;
 }
 
+#contentblog{
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.popup-content{
+  width: 75% !important;
+  border-radius: 5%;
+}
+#formsuscribe{
+  margin-left: 25%;
+}
+#buttonsuscribe{
+  color: #fff;
+  background-color: #30BEAC;
+  border-color: #3bcdbb;
+  margin-left: 2%;
+  width: 201px;
+  height: 62.20px;
+  font-family: "Montserrat", arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/* css Footer Detail */
+#fh5co-footer {
+  padding: 10em 0;
+  background: #323a45;
+  color: #878c93;
+  /* position: fixed; */
+  bottom: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 300;
+  float: left;
+  width: 100%;
+  display: block;
+}
+#fh5co-footer a {
+  color: #9a9fa5;
+}
+
+.fh5co-lead-2{
+  font-size: 13px;
+    font-family: "Montserrat", arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+    margin-bottom: 20px;
+   }
 
   
 
@@ -523,5 +764,5 @@ margin-left: 28%;
 }
 
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: transparent!important;
 }

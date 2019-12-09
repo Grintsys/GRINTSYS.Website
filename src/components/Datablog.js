@@ -1,4 +1,7 @@
 import React from 'react';
+import Popup from "reactjs-popup";
+import FormSuscribe from "./FormSuscribe";
+
 
 
 class Datablog extends React.Component{
@@ -15,17 +18,16 @@ componentWillMount(){
     })
     .then((result, limit) => {
         this.setState({ posts : result.posts})
-        console.log(result.posts[1])
+        // console.log(result.posts[1])
         
     })
    }
 
     render(){
-        let limit = 3;
-    
+            
         return(
                                     
-            <div className ="row">
+            <div className="row" id="contentblog">
                 <div id="titleblog"className="col-md-10 col-md-offset-2 fh5co-section-heading text-center">
 					<h2 className="fh5co-lead to-animate fadeInUp animated">Ultimos Post</h2>
 			    </div>
@@ -40,14 +42,11 @@ componentWillMount(){
                     </div>
                     
                 ).slice(0,3)}
-                                  
-                               
-               
+                <FormSuscribe/>
+
             </div>
             
         )
     }
 }
 export default Datablog;
-
-
