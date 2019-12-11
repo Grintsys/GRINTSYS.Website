@@ -2,16 +2,15 @@
   "name": "web-grinstys",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deyvitabora.github.io",
+  "homepage": "https://deyvitabora.github.io/Grintsys",
   "dependencies": {
     "apisauce": "^1.0.3",
-    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-awesome-slider": "^1.0.1",
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.8.6",
     "react-responsive-carousel": "^3.1.50",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.3.0",
     "react-sidebar": "^3.0.2",
     "reactjs-popup": "^1.4.2"
   },
@@ -37,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
