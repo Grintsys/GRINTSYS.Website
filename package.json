@@ -2,7 +2,7 @@
   "name": "web-grinstys",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deyvitabora.github.io/grintsys.website/",
+  "homepage": "https://deyvitabora.github.io",
   "dependencies": {
     "apisauce": "^1.0.3",
     "gh-pages": "^2.1.1",
