@@ -12,12 +12,12 @@ class Features extends React.Component{
         return(
             <div id="fh5co-features-3" data-section="benefits" class="animated">
 					<div class="container">
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
-								<h2 class="fh5co-lead animate-single features3-animate-1 fadeIn animated">Beneficios al implementar 2$HOP en su Organización</h2>
-								<p class="fh5co-sub animate-single features3-animate-2 fadeIn animated">Se acopla perfectamente con su actual sistema de inventario pero además le permite aprovechar ese sistema como nunca antes.</p>
+						<div>
+							<div id="content-2" class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
+								<h2 id="h2-tl" class="fh5co-lead animate-single features3-animate-1 fadeIn animated">Beneficios al implementar 2$HOP en su Organización</h2>
+								<p class="animate-single features3-animate-2 fadeIn animated">Se acopla perfectamente con su actual sistema de inventario pero además le permite aprovechar ese sistema como nunca antes.</p>
 							</div>
-
+							<div class="row">
 							<div class="col-md-4 col-sm-6 text-center fh5co-text-wrap">
 								<div class="fh5co-text to-animate fadeInUp animated">
 				    				<span class="fh5co-icon"><img className="icons" src={billdollar}/></span>
@@ -88,6 +88,7 @@ class Features extends React.Component{
 									<p>Si el dispositivo es extraviado o dañado, toda la data almacenada hasta su último inicio de sesión estará almacenada en una nube, donde estará respaldada y segura.</p>
 								</div>
 							</div>
+						</div>
 						</div>
 					</div>
 				</div>

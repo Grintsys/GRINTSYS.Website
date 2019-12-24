@@ -12,14 +12,18 @@ import OursTools from './components/OursTools';
 import Features from './components/Features';
 import Questions from './components/Questions';
 import FooterDetail from './components/FooterDetail';
+import DocumentMeta from 'react-document-meta';
+import FormSuscribe from './components/FormSuscribe';
 
 function App() {
   return (
     <div className="App">
         {/* <Nav/> */}
-        < Navbar className="App-nav"/>
         {/* <Sidebar /> */}
-        <header className="App-main">
+        <div className="App-main">
+          <header>
+        {/* <Navbar className="main-nav"/> */}
+        </header>
         <Bodymain />
          <div id="bar-div" className="animated">
 					<div className="container">
@@ -30,11 +34,10 @@ function App() {
         <Content /> 
         <OursTools />
         <Features/>
-        <Datablog />
+        {/* <Datablog /> */}
         <Questions/>
-        
         <FooterDetail/>                     
-      </header>
+      </div>
       
       
     </div>

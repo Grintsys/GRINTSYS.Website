@@ -8,9 +8,9 @@ class Content extends React.Component {
     render(){
         return(
             <div id="fh5co-features" data-section="features" className="animated">
-					<div className="container">
-						<div className="row">
-							<div className="col-md-10 col-md-offset-2 fh5co-section-heading text-center">
+					<div id="content-1" className="container">
+						<div id="items-1" className="row">
+							<div id="title" className="col-md-10 col-md-offset-2 fh5co-section-heading text-center">
 								<h2 className="fh5co-lead to-animate fadeInUp animated">Explora nuestros servicios</h2>
 							</div>
 							<div id="contentbox1"className="col-md-3 col-sm-6 col-xs-6 col-xxs-12">
@@ -44,8 +44,6 @@ class Content extends React.Component {
 							</div>
 
 							<div className="clearfix visible-sm-block"></div>
-
-							<div className="fh5co-spacer fh5co-spacer-sm"></div>
 
 							<div id="contentbutton" className="col-md-4 col-md-offset-4 text-center">
 								<a id ="contentbutton-b" href="#" className="btn btn-primary hvr-shadow">Ver todas las funcionalidades</a>

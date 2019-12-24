@@ -1,9 +1,9 @@
 .App {
   font-family: sans-serif;
   background:#5B696F;
+  width: 100%;
+  height: 100%;
 }
-
-
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -31,16 +31,6 @@ p{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white; */
-}
-
-
-
-
-#App-nav{
-  position: fixed;
-
-  
-  
 }
 
 #Bodymain{
@@ -77,9 +67,8 @@ p{
 
 #bar-div{
     padding: 2em 0;
-    background: #4fd2c2;
-    position: relative;
-    
+    background: #002939;
+    position: relative; 
 }
 
 /* Original CSS Plant */
@@ -95,17 +84,18 @@ p{
   
   background: #FAFAFA;
   position: relative;
-  padding: 7em 0;
-  border-bottom: 1px solid #f2f2f2;
+  padding: 2em 0;
+  border-bottom: 0.5px solid rgb(168, 168, 172);
 }
 #fh5co-features-3{
   background: #FAFAFA;
+  padding-top: 4%;
   padding-bottom: 5%;
 }
-.fh5co-section-heading .fh5co-lead {
+/* .fh5co-section-heading .fh5co-lead {
   font-size: 45px;
   line-height: 60px;
-}
+} */
 .fh5co-sub {
   width: 746.662px;
   font-size: 18px;
@@ -117,6 +107,26 @@ p{
   padding-left: 20px;
   padding-right: 20px;
   
+}
+
+.body-app{
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.main-nav{
+  position: fixed;
+  width: 100%;
+  height: 12%;
+  z-index: 100;
+  background: #002939;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
 .container:before, .container:after {
@@ -157,6 +167,7 @@ p{
 .js .to-animate, .js .animate-object, .js .animate-box, .js .animate-single {
   opacity: 0;
 }
+
 .fh5co-section-heading .fh5co-lead {
   font-size: 45px;
   line-height: 60px;
@@ -172,8 +183,11 @@ p{
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.white-text{
+  color: #FAFAFA;
+}
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #2E4053;
   font-family: "Montserrat", arial, sans-serif;
   font-weight: 700;
 }
@@ -222,8 +236,9 @@ li {
 }
 #fh5co-subscribe {
   padding: 4em 0 3em 0;
+  width: 100%;
   position: relative;
-  background: #4fd2c2;
+  background: #002939;
   width: -webkit-fill-available;
 }
 
@@ -268,7 +283,6 @@ li {
  padding-left: 20px;
  padding-right: 20px;
  text-align: center;
-
 }
 
 .fh5co-feature, .fh5co-figure {
@@ -287,6 +301,9 @@ li {
   -o-transition: 0.5s;
   transition: 0.5s;
   margin-bottom: 1.5em;
+  -webkit-box-shadow: -1px 2px 8px -6px rgba(0,0,0,0.34) !important;
+  -moz-box-shadow: -1px 2px 8px -6px rgba(0,0,0,0.34) !important;
+  box-shadow: -1px 2px 8px -6px rgba(0,0,0,0.34) !important;
 }
 
 .fh5co-feature-icon {
@@ -419,7 +436,6 @@ li {
 #titleblog{
   margin-bottom: 4em;
   margin-left: 28%;
-
 }
 
 #contentbutton{
@@ -428,11 +444,12 @@ li {
 }
 #contentbutton-b{
   color: #fff;
-  background-color: #4fd2c2;
-  border-color: #3bcdbb;
+  background-color: #45AA9E;
+  border-color: #45AA9E;
   width: 387.47px;
   height: 62.20px;
   font-family: "Montserrat", arial, sans-serif;
+  font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin-bottom: 20px;
@@ -449,12 +466,11 @@ li {
     padding-bottom: 20px;
     margin-right: 10px;
     font-size: 11px;
-    font-weight: 400;
 }
-  
 
-  
-
+#contentbutton-b:hover{
+  background: #002939;
+}
 /*EndBox*/
 
 .btn-lg{
@@ -479,11 +495,11 @@ li {
 .btn-primary{
   border-radius: 100px;
   padding: 1px 70px 20px 30px;
-  background: #30beac;
-  border-color:none!important;
+  background: #45AA9E;
+  border:none;
   font-family: "Montserrat", arial, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     margin-bottom: 20px;
     border-radius: 30px;
     transition: 0.5s;
@@ -493,14 +509,17 @@ li {
     padding-bottom: 20px;
     margin-right: 10px;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+  background: #002939;
 }
 .form-control{
-  background: #4FD2C2;
   border: 1.5px solid #ffffff;
-  background: transparent;
+  background: #FAFAFA;
     font-family: "Montserrat", arial, sans-serif;
-  display: block;
+    display: block;
     width: 100%;
     height: 50px;
     padding: 14px 12px;
@@ -524,9 +543,10 @@ li {
   transition: all 0.5s ease 0s; width: 4368px;
   
 }
-#titleblog {margin-bottom: 4em;
+/* #titleblog {
+margin-bottom: 4em;
 margin-left: 28%;
-}
+} */
 
 /*css Carousellimages */
  .carousel .slide{
@@ -580,9 +600,15 @@ margin-left: 28%;
   font-size: 26px;
   margin: 0;
   font-weight: 400;
-  color: #4FD2C2;
+  color: #45AA9E;
   line-height: 1.5;
 }
+
+.icon-android{
+  width: 20x;
+  height: 20px;
+}
+
 .accordion-item__icon {
   width: 1.2rem;
   height: 1.2rem;
@@ -627,7 +653,7 @@ margin-left: 28%;
 }
 
 #contentblog{
-  background: #0F2027;  /* fallback for old browsers */
+  background: #2D4D5B;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -642,8 +668,8 @@ margin-left: 28%;
 }
 #buttonsuscribe{
   color: #fff;
-  background-color: #30BEAC;
-  border-color: #3bcdbb;
+  background-color: #45AA9E;
+  border-color: #45AA9E;
   margin-left: 2%;
   width: 201px;
   height: 62.20px;
@@ -664,13 +690,13 @@ margin-left: 28%;
     padding-bottom: 20px;
     margin-right: 10px;
     font-size: 11px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 /* css Footer Detail */
 #fh5co-footer {
   padding: 10em 0;
-  background: #323a45;
+  background: #002939;
   color: #878c93;
   /* position: fixed; */
   bottom: 0;
@@ -732,12 +758,22 @@ margin-left: 28%;
   width: 36px;
   height: 28px;
   /* left: 36px; */
-  right: 13%;
+  right: 3%;
   top: 36px;
 }
 
+.name-business{
+  color: #f2f2f2;
+  letter-spacing: 4px;
+}
+
+.end-name{
+  color:#8ec33b;
+  letter-spacing: 4px;
+}
+
 .bm-burger-bars {
-  background: #373a47;
+  background: #F4F4F5;
 }
 
 .bm-cross-button {
@@ -750,9 +786,12 @@ margin-left: 28%;
 }
 
 .bm-menu {
-  background: #373a47;
+  background: #2D4D5B;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  /* -webkit-box-shadow: -4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    -4px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         -4px 3px 5px 0px rgba(50, 50, 50, 0.75); */
 }
 
 .bm-morph-shape {
@@ -765,4 +804,392 @@ margin-left: 28%;
 
 .bm-overlay {
   background: transparent!important;
+}
+
+/* @media (min-width: 1600px){
+  .main-nav{
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    z-index: 100;
+    background: #002939;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 1400px){
+  /* #fh5co-subscribe {
+    padding: 4em 0 3em 0;
+    width: 100%;
+    background: #4fd2c2;
+    width: -webkit-fill-available;
+  } 
+} */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* @media only screen 
+and (min-device-width : 400px) 
+and (max-device-width : 800px) {
+  .main-nav{
+    position: fixed;
+    width: 100%;
+    height: 1%;
+    z-index: 100;
+    background: #002939;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+} */
+
+/* iPads (portrait and landscape) ----------- */
+/* @media only screen 
+and (min-device-width : 766px) 
+and (max-device-width : 1024px) {
+  .main-nav{
+    position: fixed;
+    width: 100%;
+    height: 4%;
+    z-index: 100;
+    background: #002939;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  .navbar-brand{
+    font-size: 10px;
+    margin-bottom: 0%;
+  }
+
+  #text1{
+    color: #fff;
+    font-size: 14px !important;
+    line-height: 26px;
+    letter-spacing: .05em;
+  }
+
+  #Textbodymain{
+    margin-right: 0%;
+  }
+  
+  #bodyimg{
+    display: none;
+  }
+
+  #text2{
+    font-size: 10px !important;
+  }
+
+  #btn-store{
+    margin: 0%;
+    font-size: 8px;
+    padding: 10px;
+    padding-top: 10px !important;
+  }
+
+  .bm-burger-button {
+    position: fixed;
+    width: 20px;
+    height: 15px;
+    right: 3%;
+    top: 20px;
+  }
+  .icon-android{
+    width: 10px;
+    height: 10px;
+  }
+  
+  #bar-div{
+    padding: 1em 0;
+  }
+
+  #title{
+    margin-left: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
+  }
+
+  #fh5co-features{
+    padding: 1px;
+  }
+
+  #content-1{
+    margin: 2%;
+    padding: 0%;
+  }
+
+  .fh5co-section-heading .fh5co-lead{
+    margin: 0%;
+    font-size: 12px;
+  }
+
+  .fh5co-sub{
+    font-size: 10px;
+  }
+  
+  #titletools{
+    margin: 0%;
+  }
+
+  #items-1{
+    display: block;
+  }
+
+  #contentbox1, #contentbox2, #contentbox3, #contentbox4{
+    margin: 10px;
+    max-width: 40%;
+    padding: 10px;
+    align-items: center;
+   }
+
+   .bm-menu{
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+
+   .bm-menu-wrap{
+     width: 150px !important;
+     font-size: 12px;
+     color: white;
+   }
+} */
+
+
+
+
+
+
+@media(min-width : 768px) and (max-width : 1090px)
+{
+  .main-nav{
+    height: 5%;
+    background: #002939;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: inherit;
+  }
+
+  #Textbodymain{
+    margin-right: 7%;
+    height: 387.41px;
+    top: 5.5em;
+  
+  }
+  
+  #Textbodymain h2{
+    display: block;
+    color: #fff;
+      line-height: 50px;
+      font-weight: 700;
+  }
+  #Textbodymain p{
+      color: #fff;
+      font-size: 12px;
+      line-height: 26px;
+      letter-spacing: .05em;
+  }
+
+  #Textbodymain > a{
+    margin-right: 0 !important;
+    padding: 10px;
+    font-size: 11px;
+    letter-spacing: 1px;
+  }
+
+  h2{
+    margin-bottom: 0px;
+    font-size: 25px !important;
+  }
+
+  .bm-menu{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bm-menu-wrap{
+    width: 250px !important;
+    font-size: 12px;
+    color: white;
+  }
+
+  #business{
+    font-size: 18px !important;
+  }
+
+  .bm-burger-button{
+    width: 20px;
+    height: 20px;
+    top: 30px;
+  }
+
+  .navigation-bar{
+    margin-top: 10px;
+  }
+
+  .col-md-3{
+    max-width: 80%;
+    flex-basis: 50%;
+  }
+
+  #fh5co-footer{
+    padding: 30px;
+  }
+
+  #title{
+    margin-bottom: 0%;
+    margin-left: 0%;
+  }
+
+  #fh5co-features{
+    padding-top: 0%;
+  }
+
+  #contentbutton{
+    margin-left: 19%;
+  }
+
+  #contentbutton-b{
+    margin: 0%;
+  }
+
+  .accordion-item__title {
+    font-size: 20px;
+  }
+
+  #titleblog{
+    margin: 0%;
+  }
+
+  #titletools{
+    margin: 0%;
+    padding: 0%;
+  }
+
+  #titletools p{
+    margin: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 3%;
+  }
+
+  #content-2, #h2-tl, .fh5co-subm{
+    margin: 0%;
+    max-width: 100%;
+    padding: 0%;
+  }
+
+  .fh5co-sub{
+    margin-bottom: 12px;
+  }
+
+  /* #fh5co-features-3{
+    padding: 0%;
+    margin: 0%;
+  } */
+
+  #content-3 p{
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+
+  #fh5co-features-3{
+    margin: 2%;
+    padding: 1%;
+  }
+  #questions-title{
+    margin: 0%;
+  }
+}
+
+
+
+
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (max-width : 1090px) and (min-height: 1300px) {
+  .main-nav{
+    height: 5%;
+    z-index: 100;
+    background: #002939;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #titleblog{
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #titletools{
+    margin-left: 0%;
+  }
+
+  #h2-tl{
+    height: 60%;
+  } 
+
+  .fh5co-lead{
+    text-align: center;
+    width: 100%;
+  }
+
+  .fh5co-lead > span{
+    margin-left: 200px;
+  }
+
+  .fh5co-section-heading{
+    margin-left: 13%;
+  }
+
+  #title{
+    margin-left: 8%;
+  }
+
+  .fh5co-sub{
+    margin-top: 0%;
+  }
+}
+
+@media only screen 
+and (min-width : 1500px) {
+  .main-nav{
+    width: 100%;
+    height: 11%;
+    z-index: 100;
+    background: #002939;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  .main-nav{
+    width: 100%;
+    height: 9%;
+    z-index: 100;
+  }
 }

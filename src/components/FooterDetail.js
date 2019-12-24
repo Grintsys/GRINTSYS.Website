@@ -12,7 +12,7 @@ class FooterDetail extends React.Component{
 				<div class="container">
 					<div class="row">
 					<div class="col-md-3 col-sm-12 col-md-pull-9">
-							<div class="fh5co-footer-logo"><a href="index.html">Grintsys</a></div>
+							<div class="fh5co-footer-logo"><a href="index.html"><span className="name-business">Grint</span><span className="end-name">sys</span></a></div>
 							<p class="fh5co-copyright"><small>© 2017. All Rights Reserved. 	by <a href="http://grintsys.com/" target="_blank">Grintsys.com</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a></small></p>
 							<p class="fh5co-social-icons">
 								<a href="https://www.facebook.com/grintsys/"><i class="icon-facebook"></i></a>
