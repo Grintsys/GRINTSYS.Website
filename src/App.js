@@ -22,7 +22,7 @@ function App() {
         {/* <Sidebar /> */}
         <div className="App-main">
           <header>
-        {/* <Navbar className="main-nav"/> */}
+        <Navbar/>
         </header>
         <Bodymain />
          <div id="bar-div" className="animated">
@@ -31,10 +31,10 @@ function App() {
 				   </div>
 					</div>
 				</div>
-        <Content /> 
+         <Content />
         <OursTools />
         <Features/>
-        {/* <Datablog /> */}
+        <Datablog />
         <Questions/>
         <FooterDetail/>                     
       </div>

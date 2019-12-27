@@ -73,8 +73,9 @@ suscribePush(event){
                     <div className="col">
                     <input type="email" name="email_address" className="form-control" value={email_address}  onChange={this.changeHandler} placeholder="Email"/>
                     </div>
+                    <div className="col">
                     <button id="buttonsuscribe" type="submit" className="btn btn-primary hvr-shadow" onClick={this.suscribePush.bind(this)}>Sucribirse</button>
-                    
+                    </div>                 
                 </div>
             </form>
          </div>
