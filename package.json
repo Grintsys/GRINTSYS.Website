@@ -2,14 +2,16 @@
   "name": "web-grinstys",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://deyvitabora.github.io/Grintsys",
   "dependencies": {
     "apisauce": "^1.0.3",
     "react": "^16.8.6",
     "react-awesome-slider": "^1.0.1",
     "react-burger-menu": "^2.6.11",
+    "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^16.8.6",
     "react-responsive-carousel": "^3.1.50",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.3.0",
     "react-sidebar": "^3.0.2",
     "reactjs-popup": "^1.4.2"
   },
@@ -17,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -33,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
