@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Grintsys.Website/static/css/main.cafaaf95.chunk.css",
+    "main.js": "/Grintsys.Website/static/js/main.0754d3c3.chunk.js",
+    "main.js.map": "/Grintsys.Website/static/js/main.0754d3c3.chunk.js.map",
+    "runtime-main.js": "/Grintsys.Website/static/js/runtime-main.fc4b6b57.js",
+    "runtime-main.js.map": "/Grintsys.Website/static/js/runtime-main.fc4b6b57.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/Grintsys.Website/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.ba5101e2.chunk.js": "/Grintsys.Website/static/js/2.ba5101e2.chunk.js",
+    "static/js/2.ba5101e2.chunk.js.map": "/Grintsys.Website/static/js/2.ba5101e2.chunk.js.map",
+    "index.html": "/Grintsys.Website/index.html",
+    "precache-manifest.78c2df1920c412110e4bd2ded21a7ca6.js": "/Grintsys.Website/precache-manifest.78c2df1920c412110e4bd2ded21a7ca6.js",
+    "service-worker.js": "/Grintsys.Website/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/Grintsys.Website/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.cafaaf95.chunk.css.map": "/Grintsys.Website/static/css/main.cafaaf95.chunk.css.map",
+    "static/js/2.ba5101e2.chunk.js.LICENSE": "/Grintsys.Website/static/js/2.ba5101e2.chunk.js.LICENSE",
+    "static/media/billdollar.png": "/Grintsys.Website/static/media/billdollar.ad95630f.png",
+    "static/media/cart.png": "/Grintsys.Website/static/media/cart.ea2db99e.png",
+    "static/media/cart_summary.png": "/Grintsys.Website/static/media/cart_summary.7839df68.png",
+    "static/media/clouds.png": "/Grintsys.Website/static/media/clouds.b50f8e08.png",
+    "static/media/curly.png": "/Grintsys.Website/static/media/curly.e3ec4d57.png",
+    "static/media/database.png": "/Grintsys.Website/static/media/database.131966a7.png",
+    "static/media/inventory.png": "/Grintsys.Website/static/media/inventory.096f87cf.png",
+    "static/media/phone1.png": "/Grintsys.Website/static/media/phone1.f9651f28.png",
+    "static/media/startup.png": "/Grintsys.Website/static/media/startup.122a37b1.png",
+    "static/media/stats2.png": "/Grintsys.Website/static/media/stats2.878b6564.png",
+    "static/media/update.png": "/Grintsys.Website/static/media/update.7cc47bb4.png",
+    "static/media/user.png": "/Grintsys.Website/static/media/user.319003d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc4b6b57.js",
+    "static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.ba5101e2.chunk.js",
+    "static/css/main.cafaaf95.chunk.css",
+    "static/js/main.0754d3c3.chunk.js"
+  ]
+}
