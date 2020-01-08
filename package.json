@@ -2,7 +2,7 @@
   "name": "web-grinstys",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://deyvitabora.github.io/Grintsys",
+  "homepage": "https://grintsys.github.io/Grintsys.Website",
   "dependencies": {
     "apisauce": "^1.0.3",
     "react": "^16.8.6",
