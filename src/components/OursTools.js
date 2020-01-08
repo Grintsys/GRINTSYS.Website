@@ -44,7 +44,7 @@ class OursTools extends React.Component {
                         <div className="col">
                             <CarouselImages />
                         </div>
-                        <div class="col">
+                        <div className="col">
                             <div className="cont-ours">
                                 <span className="fh5co-icon"><img className="icons" src={startup} /></span>
                                 <h4 className="fh5co-uppercase-sm">Perzonalizable</h4>

@@ -11,13 +11,14 @@ html,body{
   transition : all 0.3s ease-out;
   background: #002a38;
 }
-.start-header.scroll-on {
+
+.start-header .scroll-on {
 	box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
 	padding: 5px 0;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
-.start-header.scroll-on .navbar-brand img{
+.start-header .scroll-on .navbar-brand img{
 	height: 28px;
 	-webkit-transition : all 0.3s ease-out;
 	transition : all 0.3s ease-out;
@@ -29,8 +30,9 @@ html,body{
 	left: 0;
 	z-index: 1000;
 	-webkit-transition : all 0.3s ease-out;
-	transition : all 0.3s ease-out;
+  transition : all 0.3s ease-out;
 }
+
 .navbar{
 	padding: 0;
 }
@@ -584,13 +586,40 @@ html,body{
 
   .bm-menu {
     background: #2d4d5b;
-    padding: 2.5em 1.5em 0;
+    padding-top: 2.5em;
+    padding-left: 0%;
+    padding-right: 0%;
     font-size: 1.15em;
     height: 100%;
+    /* opacity: 0.9; */
+  }
+
+  .navbar-toggler{
+    line-height: 2;
   }
 
   .bm-item-list {
     color: #b8b7ad;
+  }
+
+  .bm-item {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #ffffff;
+    transition: color 0.2s;
+    font-size: 20px;
+  }
+
+  .bm-item:hover {
+    color: white;
+  }
+
+  .bm-menu-wrap {
+    height: 1000px !important;
+    width: 100% !important;
+    font-size: 12px;
+    color: white;
   }
 
    @media(min-width : 300px) and (max-width : 730px){
@@ -713,7 +742,7 @@ html,body{
     #Textbodymain{
     z-index: 1;
     position: absolute;
-    margin-top: 20%;
+    margin-top: 30%;
     color: white;
     max-width: 80%;
     margin-left: 15px;
@@ -900,6 +929,10 @@ html,body{
 
     #titleblog{
       padding-top: 15px;
+    }
+
+    #cont-row{
+      margin-right: 0%;
     }
 
    }
