@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c4f4c65ca1f3774640b6dd4ceaf4f02c",
+    "revision": "2a72027cd902e08b53ce923698c85490",
     "url": "/GRINTSYS.Website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GRINTSYS.Website/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "4db0d32bf35d624d0427",
-    "url": "/GRINTSYS.Website/static/css/main.501b1eb8.chunk.css"
+    "revision": "beb23529c8ffe05e5b3e",
+    "url": "/GRINTSYS.Website/static/css/main.7400bfd8.chunk.css"
   },
   {
     "revision": "551c5d1faa3cf175bb49",
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/GRINTSYS.Website/static/js/2.ba5101e2.chunk.js.LICENSE"
   },
   {
-    "revision": "4db0d32bf35d624d0427",
-    "url": "/GRINTSYS.Website/static/js/main.977c975f.chunk.js"
+    "revision": "beb23529c8ffe05e5b3e",
+    "url": "/GRINTSYS.Website/static/js/main.33983966.chunk.js"
   },
   {
     "revision": "475a8e15da706855bbcd",
     "url": "/GRINTSYS.Website/static/js/runtime-main.cfa6fda2.js"
+  },
+  {
+    "revision": "d4b93fd2e3bf497b98132444ee8c306c",
+    "url": "/GRINTSYS.Website/static/media/bg_2.d4b93fd2.jpg"
   },
   {
     "revision": "ad95630f90d1d6386bc2c5aec792eca0",
