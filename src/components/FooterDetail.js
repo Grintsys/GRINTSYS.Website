@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { FaFacebookSquare, FaYoutube } from "react-icons/fa";
 
 
 
@@ -37,8 +37,8 @@ class FooterDetail extends React.Component{
 							<div className="fh5co-footer-logo"><a href="index.html"><span className="name-business">Grint</span><span className="end-name">sys</span></a></div>
 							<p className="fh5co-copyright"><small>© 2017. All Rights Reserved. 	by <a href="http://grintsys.com/" target="_blank">Grintsys.com</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a></small></p>
 							<p className="fh5co-social-icons">
-								<a href="https://www.facebook.com/grintsys/"><i className="icon-facebook"></i></a>
-								<a href="#"><i className="icon-youtube"></i></a>
+								<a className="social" href="https://www.facebook.com/grintsys/"><FaFacebookSquare/> Facebook</a>
+								<a className="social" href="https://www.youtube.com/channel/UCCr2Se-J173l36beanfXm0w"><FaYoutube/> YouTube</a>
 							</p>
 						</div>
 					</div>

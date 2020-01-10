@@ -5,12 +5,14 @@ import user from '../icons/user.png';
 import update from '../icons/update.png';
 import startup from '../icons/startup.png';
 import CarouselImages from './CarouselImages'
+import Fade from 'react-reveal/Fade';
 
 
 
 class OursTools extends React.Component {
     render() {
         return (
+            <Fade left>
             <div id="fh5co-features" data-section="features" className="animated content-img">
                 <div className="container" >
                     <div id="content-2" className="col-md-12 col-md-offset-2 fh5co-section-heading text-center">
@@ -41,7 +43,7 @@ class OursTools extends React.Component {
                                 <p>Has las cosas faciles, nosotros tratamos de lograr la mejor experiencia de usuario posible.</p>
                             </div>
                         </div>
-                        <div className="col">
+                        <div id="carusel-img" className="col">
                             <CarouselImages />
                         </div>
                         <div className="col">
@@ -61,6 +63,7 @@ class OursTools extends React.Component {
                 </div>
             </div>
             </div >
+            </Fade>
         )
     }
 }

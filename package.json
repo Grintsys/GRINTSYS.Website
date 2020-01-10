@@ -10,7 +10,9 @@
     "react-burger-menu": "^2.6.11",
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^16.8.6",
+    "react-icons": "^3.8.0",
     "react-responsive-carousel": "^3.1.50",
+    "react-reveal": "^1.2.2",
     "react-scripts": "^3.3.0",
     "react-sidebar": "^3.0.2",
     "reactjs-popup": "^1.4.2"

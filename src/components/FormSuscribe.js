@@ -64,16 +64,16 @@ suscribePush(event){
          <div className="container">
             <form onSubmit={this.submitHandler}>
                 <div className="form-row">
-                    <div class="col">
+                    <div class="col frm-control">
                     <input type="text" name="FNAME" className="form-control" value={FNAME} onChange={this.changeHandler} placeholder="Primer nombre"/>
                     </div>
-                    <div className="col">
+                    <div className="col frm-control">
                     <input type="text" name="LNAME" className="form-control" value={LNAME}  onChange={this.changeHandler} placeholder="Segundo nombre"/>
                     </div>
-                    <div className="col">
+                    <div className="col frm-control">
                     <input type="email" name="email_address" className="form-control" value={email_address}  onChange={this.changeHandler} placeholder="Email"/>
                     </div>
-                    <div className="col">
+                    <div className="col frm-control">
                     <button id="buttonsuscribe" type="submit" className="btn btn-primary hvr-shadow" onClick={this.suscribePush.bind(this)}>Sucribirse</button>
                     </div>                 
                 </div>

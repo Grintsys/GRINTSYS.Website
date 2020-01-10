@@ -1,4 +1,5 @@
 html,body{
+  font-family: "Open Sans", Arial, sans-serif;
   width: 100%;
   height: 100%;
 }
@@ -173,6 +174,7 @@ html,body{
    #fh5co-features{
     padding: 1px;
     margin-bottom: 30px;
+    margin-top: 20px;
   }
 
   #content-1{
@@ -182,6 +184,9 @@ html,body{
   
   #content-2 p{
     font-size: 18px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 20px;
   }
 
   #content-2{
@@ -191,7 +196,9 @@ html,body{
 
   #questions-title{
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: bold;
   }
 
   .fh5co-section-heading .fh5co-lead{
@@ -296,6 +303,10 @@ html,body{
     font-size: 45px;
   }
 
+  .social{
+    padding-right: 25px;
+  }
+
   .icons{
     margin-top: 1em;
     width: 35.42px;
@@ -305,6 +316,7 @@ html,body{
 
   #fh5co-features-3{
     background: #F2F3F4;
+    padding-bottom: 20px;
   }
 
   .fh5co-text-wrap{
@@ -317,17 +329,24 @@ html,body{
 
   #h2-tl{
     font-size: 45px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 20px;
+    font-weight: bold !important;
   }
 
   #contentblog{
     background: #2D4D5B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    margin-bottom: 15px;
   }
 
   #titleblog h2{
     color: #fff;
+  }
+
+  #titleblog{
+    padding: 30px;
   }
 
   #buttonsuscribe{
@@ -342,11 +361,20 @@ html,body{
   #text2{
     color: white;
     font-size: 20px;
+    margin-bottom: 30px;
   }
 
   #text1{
     font-size: 45px;
     color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+
+  #cont-div{
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   #Textbodymain{
@@ -354,22 +382,55 @@ html,body{
   }
 
   #cont-body{
-    padding-left: 5%;
-    background: #5c696c;
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-right: 20% !important;
+    background:url(images/bg_2.jpg);
+    /* background: linear-gradient(0deg, rgba(48,54,60,1) 0%, rgba(88,106,110,1) 100%); */
+  }
+
+  #shop{
+    border-radius: 10px;
+    width: max-content;
+    text-align: center;
+    border: 2px solid #fff;
+    padding: 7px 10px 7px 12px;
+    color: white;
+    margin-bottom: 20px;
   }
 
   #fh5co-features1{
-    padding-top: 20px;
+    padding-top: 50px;
   }
 
   #buttonsuscribe{
+    font-family: "Montserrat", arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     color: #fff;
+    border-radius: 30px;
     background-color: #45AA9E;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 400;
     border-color: #45AA9E;
   }
 
+  .form-control{
+    padding: 25px;
+  }
+
+  .frm-control{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
   #bar-div{
-    padding: 20px;
+    padding: 2em 0;
     background: #002b37;
   }
 
@@ -465,13 +526,25 @@ html,body{
   }
 
   #btn-store{
+    font-family: "Montserrat", arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     color: #fff !important;
-  background-color: #1cab9e;
-  border-color: #1cab9e;
+    background-color: #1cab9e;
+    border-color: #1cab9e;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    font-size: 11px;
+    font-weight: 400;
   }
 
   .cont-feac{
     padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   #contentbox1, #contentbox2, #contentbox3, #contentbox4{
@@ -636,7 +709,7 @@ html,body{
       height: auto;
     }
     #contentbutton{
-      padding-bottom: 10px;
+      padding-bottom: 30px;
     }
 
     .fh5co-lead-2{
@@ -656,6 +729,12 @@ html,body{
 
     .accordion-item__title, #h2-tl, .fh5co-uppercase-sm{
       font-size: 14px;
+    }
+
+    #h2-tl{
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 20px;
     }
 
     .accordion-item__paragraph, p{
@@ -682,14 +761,21 @@ html,body{
 
     #content-2 p{
       font-size: 12px;
+      padding: 0;
+    }
+
+    #carusel-img{
+      padding: 50px;
     }
 
     #content-2{
-      padding-top: 10px;
+      padding-top: 5px;
     }
   
     #questions-title{
       font-size: 14px;
+      padding: 20px;
+      margin: 0;
     }
 
     #titleblog h2{
@@ -709,6 +795,8 @@ html,body{
     #buttonsuscribe{
       font-size: 12px;
       width: 100%;
+      padding: 15px;
+      margin-right: 0;
     }
 
     .fh5co-subscribe{
@@ -750,18 +838,24 @@ html,body{
 
     #text1{
       font-size: 30px;
+      margin-bottom: 10px;
     }
 
     #text2{
       color: white;
-    font-size: 14px;
-    font-weight: bold;
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 20px;
     }
 
     #btn-store{
       color: #fff;
-    background-color: #1cab9e;
-    border-color: #1cab9e;
+      background-color: #1cab9e;
+      border-color: #1cab9e;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
 
     #bodyimg{
@@ -794,10 +888,18 @@ html,body{
 
     #cont-body{
       padding-left: 0%;
+      padding-right: 0% !important;
+      margin-top: 0%;
     }
 
     #cont-row{
       margin-right: 0%;
+    }
+
+    .frm-control{
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 20px;
     }
 
    }
@@ -910,8 +1012,9 @@ html,body{
 
     #cont-body{
       margin: 0%;
-      padding-left: 15px;
+      padding-left: 100px;
       background: #54595a;
+      padding-right: 100px !important;
     }
 
     #bar-div{
