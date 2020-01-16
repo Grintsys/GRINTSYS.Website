@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/GRINTSYS.Website/static/css/main.a53ebbb3.chunk.css",
-    "main.js": "/GRINTSYS.Website/static/js/main.6278cdc5.chunk.js",
-    "main.js.map": "/GRINTSYS.Website/static/js/main.6278cdc5.chunk.js.map",
+    "main.css": "/GRINTSYS.Website/static/css/main.6598f4df.chunk.css",
+    "main.js": "/GRINTSYS.Website/static/js/main.fb9164e7.chunk.js",
+    "main.js.map": "/GRINTSYS.Website/static/js/main.fb9164e7.chunk.js.map",
     "runtime-main.js": "/GRINTSYS.Website/static/js/runtime-main.cfa6fda2.js",
     "runtime-main.js.map": "/GRINTSYS.Website/static/js/runtime-main.cfa6fda2.js.map",
     "static/css/2.d98d49a2.chunk.css": "/GRINTSYS.Website/static/css/2.d98d49a2.chunk.css",
-    "static/js/2.a38321bc.chunk.js": "/GRINTSYS.Website/static/js/2.a38321bc.chunk.js",
-    "static/js/2.a38321bc.chunk.js.map": "/GRINTSYS.Website/static/js/2.a38321bc.chunk.js.map",
+    "static/js/2.7aae30ad.chunk.js": "/GRINTSYS.Website/static/js/2.7aae30ad.chunk.js",
+    "static/js/2.7aae30ad.chunk.js.map": "/GRINTSYS.Website/static/js/2.7aae30ad.chunk.js.map",
     "index.html": "/GRINTSYS.Website/index.html",
-    "precache-manifest.fc6c531029a8dc18c1640bf8d61a7f42.js": "/GRINTSYS.Website/precache-manifest.fc6c531029a8dc18c1640bf8d61a7f42.js",
+    "precache-manifest.50a5bbc59e42fb252e25bcccbd7c0c50.js": "/GRINTSYS.Website/precache-manifest.50a5bbc59e42fb252e25bcccbd7c0c50.js",
     "service-worker.js": "/GRINTSYS.Website/service-worker.js",
     "static/css/2.d98d49a2.chunk.css.map": "/GRINTSYS.Website/static/css/2.d98d49a2.chunk.css.map",
-    "static/css/main.a53ebbb3.chunk.css.map": "/GRINTSYS.Website/static/css/main.a53ebbb3.chunk.css.map",
-    "static/js/2.a38321bc.chunk.js.LICENSE": "/GRINTSYS.Website/static/js/2.a38321bc.chunk.js.LICENSE",
+    "static/css/main.6598f4df.chunk.css.map": "/GRINTSYS.Website/static/css/main.6598f4df.chunk.css.map",
+    "static/js/2.7aae30ad.chunk.js.LICENSE": "/GRINTSYS.Website/static/js/2.7aae30ad.chunk.js.LICENSE",
     "static/media/App.css": "/GRINTSYS.Website/static/media/bg_2.d4b93fd2.jpg",
     "static/media/billdollar.png": "/GRINTSYS.Website/static/media/billdollar.ad95630f.png",
     "static/media/cart.png": "/GRINTSYS.Website/static/media/cart.ea2db99e.png",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.cfa6fda2.js",
     "static/css/2.d98d49a2.chunk.css",
-    "static/js/2.a38321bc.chunk.js",
-    "static/css/main.a53ebbb3.chunk.css",
-    "static/js/main.6278cdc5.chunk.js"
+    "static/js/2.7aae30ad.chunk.js",
+    "static/css/main.6598f4df.chunk.css",
+    "static/js/main.fb9164e7.chunk.js"
   ]
 }
