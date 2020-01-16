@@ -14,6 +14,7 @@ import Questions from './components/Questions';
 import FooterDetail from './components/FooterDetail';
 import DocumentMeta from 'react-document-meta';
 import FormSuscribe from './components/FormSuscribe';
+import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 
 function App() {
   return (
@@ -38,7 +39,9 @@ function App() {
         <Questions/>
         <FooterDetail/>                     
       </div>
-      
+      <div>
+        <ScrollUpButton />
+      </div>
       
     </div>
     
